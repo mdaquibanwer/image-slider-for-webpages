@@ -3,11 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-main{
+h1{
+    text-align: center;
+}
+#one,#two{
     width: 70%;
-    /* border: 1px solid black; */
-    margin: 5rem auto 0 auto;
+    margin: 3rem auto;
     height: 70vh;
     width: 60vw;
     box-shadow: 0 0 3px gray;
@@ -15,20 +16,19 @@ main{
     overflow: hidden;
 }
 
-.slide{
+.slide1,.slide2{
     width: 100%;
     height: 100%;
     position: absolute;
     transition: 1s ease-in;
 }
 .btn{
-    margin-top: 1rem;
+    margin: 1rem 0;
     text-align: center;
 }
 
 .left-btn,.right-btn{
     cursor: pointer;
-    display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1rem;
 }
